@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+
+        "outDir": "./.tsbuild/",
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "module": "commonJS",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "strictPropertyInitialization": true,
+        "strictNullChecks": true,
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/mocha-framework",
+            "@wdio/appium-service"
+        ],
+        "target": "es2022"
+    },
+    "include": [
+        "./config/*.ts",
+        "./tests/*.ts"
+    ]
+}

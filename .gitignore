@@ -1,0 +1,9 @@
+# IntelliJ IDEA
+/.idea/
+.DS_Store
+*.iml
+
+# Other output folders
+/.vscode/
+/node_modules/
+/.tsbuild/
