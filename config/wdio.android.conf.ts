@@ -5,7 +5,7 @@ import config from '../config/wdio.shared.local.conf';
 // Specs
 // ============
 config.specs = [
-    '../tests/specs/android.spec.ts',
+    '../tests/specs/*.ts',
 ];
 
 // ============
