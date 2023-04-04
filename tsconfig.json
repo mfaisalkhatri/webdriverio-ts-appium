@@ -18,8 +18,4 @@
         ],
         "target": "es2022"
     },
-    "include": [
-        "./config/*.ts",
-        "./tests/*.ts"
-    ]
 }
