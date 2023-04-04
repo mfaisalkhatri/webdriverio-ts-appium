@@ -1,6 +1,6 @@
 class HomePage {
 
-    async getTitle():string {
+    async getTitle():Promise<string> {
         const selector  = 'new UiSelector().text("WEBDRIVER").className("android.widget.TextView")';
         const title = await $(`android=${selector}`);
         return await title.getText();
@@ -9,7 +9,7 @@ class HomePage {
     get loginMenu() {
         return $("~Login");
     }
-    async openLoginScreen():void {
+    async openLoginScreen():Promise<void> {
         await this.loginMenu.click();
     }
 

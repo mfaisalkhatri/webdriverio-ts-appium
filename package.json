@@ -12,8 +12,5 @@
   },
   "scripts": {
     "wdio": "wdio config/wdio.android.conf.ts"
-  },
-  "dependencies": {
-    "appium-doctor": "^1.16.2"
   }
 }

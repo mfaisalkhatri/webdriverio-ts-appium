@@ -18,11 +18,11 @@ class LoginPage {
         await this.loginBtn.click();
     }
 
-    async successMessageTitle():string {
+    async successMessageTitle():Promise<string> {
         return  (await $('id=android:id/alertTitle')).getText();
     }
 
-    async successMessage():string {
+    async successMessage():Promise<string> {
         return (await $('id=android:id/message')).getText();
     }
 }
