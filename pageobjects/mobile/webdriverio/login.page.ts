@@ -11,6 +11,10 @@ class LoginPage {
      get loginBtn () {
         return $("~button-LOGIN");
     }
+
+    get OKbtn() {
+        return $('id=android:id/button1');_
+    }
     
      async login (emailId:string, password:string) {
         await this.inputEmail.setValue(emailId);
@@ -24,6 +28,11 @@ class LoginPage {
 
     async successMessage():Promise<string> {
         return (await $('id=android:id/message')).getText();
+    }
+
+    async closePopup () {
+        await this.OKbtn.click();
+
     }
 }
 
