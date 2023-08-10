@@ -20,6 +20,11 @@ This project is the outcome of my self-learning about the [WebDriverIO](https://
 - Navigate to the root folder of the project and Run the command `npm install`
 - To run the tests - `npm run wdio` 
 
+## :computer: Blog and Video Links
+
+- [WebdriverIO Appium Tutorial: A Getting Started Guide With Examples](https://medium.com/@iamfaisalkhatri/webdriverio-appium-tutorial-a-getting-started-guide-with-examples-b99dc713cb34)
+- [How to perform Android mobile automation using WebdriverIO Appium with TypeScript](https://youtu.be/zWm0F3-ayQw)
+
 ## :question: Need Assistance?
 
 - Discuss your queries by writing to me @ `mohammadfaisalkhatri@gmail.com`
@@ -31,4 +36,4 @@ This project is the outcome of my self-learning about the [WebDriverIO](https://
 Contact me for Paid trainings related to Test Automation and Software Testing, 
 mail me @ `mohammadfaisalkhatri@gmail.com` or ping me on [LinkedIn](https://www.linkedin.com/in/faisalkhatri/)
 
-## :thought_balloon: Checkout the blogs related to Testing on [my website](https://mfaisalkhatri.github.io) and [medium](https://medium.com/@iamfaisalkhatri)
+## :thought_balloon: Checkout the blogs related to Testing on [my website](https://mfaisalkhatri.github.io) and [medium blogs](https://medium.com/@iamfaisalkhatri)
