@@ -24,11 +24,9 @@ This project is the outcome of my self-learning about the [WebDriverIO](https://
 
 - [WebdriverIO Appium Tutorial: A Getting Started Guide With Examples](https://medium.com/@iamfaisalkhatri/webdriverio-appium-tutorial-a-getting-started-guide-with-examples-b99dc713cb34)
 
-
 ## :movie_camera: Tutorial Video 
 
 [![Watch the video](https://img.youtube.com/vi/zWm0F3-ayQw/hqdefault.jpg)](https://youtu.be/zWm0F3-ayQw)
-
 
 ## :question: Need Assistance?
 
