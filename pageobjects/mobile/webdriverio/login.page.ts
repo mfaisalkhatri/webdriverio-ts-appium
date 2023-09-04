@@ -13,7 +13,7 @@ class LoginPage {
     }
 
     get OKbtn() {
-        return $('id=android:id/button1');_
+        return $('id=android:id/button1');
     }
     
      async login (emailId:string, password:string) {

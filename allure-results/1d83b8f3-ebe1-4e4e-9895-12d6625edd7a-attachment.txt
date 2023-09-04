@@ -1,0 +1,4 @@
+{
+  "using": "-android uiautomator",
+  "value": "new UiSelector().text(\"FULLY OPEN SOURCE\").className(\"android.widget.TextView\")"
+}

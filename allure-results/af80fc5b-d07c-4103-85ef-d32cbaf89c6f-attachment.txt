@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "An element could not be located on the page using the given search parameters.",
+  "stacktrace": "NoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidUiautomator2Driver.findElOrEls (/Users/faisalkhatri/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async AndroidUiautomator2Driver.findElOrElsWithProcessing (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)\n    at async AndroidUiautomator2Driver.findElement (/opt/homebrew/lib/node_modules/appium/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)"
+}
