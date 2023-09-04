@@ -18,7 +18,11 @@ This project is the outcome of my self-learning about the [WebDriverIO](https://
 - [NodeJS](https://nodejs.org/en/download/) should be installed on the local machine where tests needs to be run.
 - Clone this repository using the command `git@github.com:mfaisalkhatri/webdriverio_tutorial.git`
 - Navigate to the root folder of the project and Run the command `npm install`
-- To run the tests - `npm run wdio` 
+- To run the tests - `npm run wdio`
+- To generate allure report: 
+  - brew install allure
+  - allure server ./allure-results
+  - Checkout [allure Reporter](https://webdriver.io/docs/allure-reporter/) for more details
 
 ## :computer: Blog and Video Links
 
