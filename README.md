@@ -1,10 +1,8 @@
-![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-
 ## Don't forget to give a :star: to make the project popular.
 
 ## :question: What is this Repository about?
 
-This project is the outcome of my self-learning about the [WebDriverIO](https://webdriver.io/) Test Automation framework
+This project is the outcome of my self-learning mobile test automation with [WebDriverIO](https://webdriver.io/) Test Automation framework
 
 ## :briefcase: What does this repo contain?
 - This repo contains example codes of Android Mobile Automation with TypeScript using [WebdriverIO Demo App](https://github.com/webdriverio/native-demo-app/releases) 
@@ -43,4 +41,4 @@ This project is the outcome of my self-learning about the [WebDriverIO](https://
 Contact me for Paid trainings related to Test Automation and Software Testing, 
 mail me @ `mohammadfaisalkhatri@gmail.com` or ping me on [LinkedIn](https://www.linkedin.com/in/faisalkhatri/)
 
-## :thought_balloon: Checkout the blogs related to Testing on [my website](https://mfaisalkhatri.github.io) and [medium blogs](https://medium.com/@iamfaisalkhatri)
+## :thought_balloon: Checkout the blogs related to Testing on my [Medium blog](https://medium.com/@iamfaisalkhatri)
