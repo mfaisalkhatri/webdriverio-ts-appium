@@ -1,5 +1,7 @@
 ## Don't forget to give a :star: to make the project popular.
 
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/webdriverio-ts-appium)
+
 ## :question: What is this Repository about?
 
 This project is the outcome of my self-learning mobile test automation with [WebDriverIO](https://webdriver.io/) Test Automation framework
