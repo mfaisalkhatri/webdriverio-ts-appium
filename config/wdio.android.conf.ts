@@ -16,8 +16,8 @@ config.capabilities = [
         // The defaults you need to have in your config
         platformName: 'Android',
         maxInstances: 1,
-        'appium:deviceName': 'Pixel_XL_API_33',
-        'appium:platformVersion': '13.0',
+        'appium:deviceName': 'Pixel 10',
+        'appium:platformVersion': '16.0',
         'appium:orientation': 'PORTRAIT',
         'appium:automationName': 'UiAutomator2',
         // The path to the app
