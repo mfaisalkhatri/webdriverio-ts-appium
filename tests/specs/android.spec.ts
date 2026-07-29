@@ -5,7 +5,7 @@ import allureReporter from '@wdio/allure-reporter'
 
 describe("Android Mobile automation tests", () => {
   it("should check the title on home page", async () => {
-    expect(await HomePage.getTitle()).toHaveTextContaining("WEBDRIVER");
+    expect(await HomePage.getTitle()).toContain("WEBDRIVER");
   });
 
   it("should login into the app successfully", async () => {
