@@ -1,4 +1,4 @@
-import Gestures from "../../../tests/helpers/Gestures";
+import Gestures from "../../../utils/Gestures";
 
 class SwipePage {
   get cardTitle1() {

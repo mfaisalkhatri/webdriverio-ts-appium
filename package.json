@@ -12,6 +12,7 @@
     "wdio-vscode-service": "^8.0.0"
   },
   "scripts": {
-    "wdio": "wdio config/wdio.android.conf.ts"
+    "test:android": "wdio config/wdio.android.conf.ts",
+    "test:ios": "wdio config/wdio.ios.conf.ts"
   }
 }

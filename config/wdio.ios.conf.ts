@@ -1,11 +1,11 @@
 import { join } from 'node:path';
-import config from '../config/wdio.shared.local.conf';
+import config from './wdio.shared.local.conf';
 
 // ============
 // Specs
 // ============
 config.specs = [
-    '../tests/specs/android.spec.ts',
+    '../tests/specs/ios.spec.ts',
 ];
 
 // ============
@@ -14,16 +14,16 @@ config.specs = [
 config.capabilities = [
     {
         // The defaults you need to have in your config
-        platformName: 'Android',
+        platformName: 'iOS',
         maxInstances: 1,
-        'appium:deviceName': 'Pixel 10',
-        'appium:platformVersion': '16.0',
+        'appium:deviceName': 'iPhone 17',
+        'appium:platformVersion': '26.5',
         'appium:orientation': 'PORTRAIT',
-        'appium:automationName': 'UiAutomator2',
+        'appium:automationName': 'XCUITest',
         // The path to the app
-        'appium:app': join(process.cwd(), './apps/Android-NativeDemoApp-0.4.0.apk'),
+        'appium:app': join(process.cwd(), './apps/SauceLabs-Demo-App.Simulator.zip'),
         // @ts-ignore
-        'appium:appWaitActivity': 'com.wdiodemoapp.MainActivity',
+        //'appium:appWaitActivity': 'com.wdiodemoapp.MainActivity',
         'appium:noReset': false,
         'appium:newCommandTimeout': 240,
     },
